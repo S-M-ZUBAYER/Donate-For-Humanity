@@ -1,6 +1,8 @@
 /* link-up google font with css */
 body {
     font-family: 'Lora', serif;
+    padding: 0;
+    margin: 0;
 }
 
 /* Display section */
@@ -127,8 +129,8 @@ body {
 .update_block {
     text-align: center;
     margin: 40px 20%;
-    padding: 5% 20%;
-    background-color: bisque;
+    padding: 5% 10%;
+    background-color: beige;
     border-radius: 10px;
 
 }
@@ -137,21 +139,23 @@ body {
     font-size: 15px;
     color: gray;
     background-color: lightgray;
-    border-radius: 5px;
+    border-radius: 5px 0 0 5px;
     border: none;
-    width: 250px;
-    height: 30px;
+    width: 200px;
+    height: 35px;
     font-size: 15px;
+    margin-right: -3px;
 }
 
 #subscribe_btn {
     background-color: firebrick;
     color: white;
     border: none;
-    border-radius: 5px;
-    width: 1250x;
-    height: 30px;
+    border-radius: 0 5px 5px 0;
+    width: 150x;
+    height: 37px;
     font-size: 15px;
+    margin-left: -3px;
 }
 
 #footer {
