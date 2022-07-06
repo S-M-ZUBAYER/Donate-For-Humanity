@@ -38,23 +38,40 @@ body {
     font-weight: bold;
 }
 
-/* Donate way  */
+/* Donate way seetion  */
 .donate_way {
-    padding: 0% 20%;
     margin-top: 100px;
+    margin-bottom: 100px;
     text-align: center;
 }
 
-/* .Trust_for_donation { */
-/* text-align: center; */
-/* } */
+.donate_contribution {
+    text-align: center;
+    padding: 0% 20%;
+    margin-bottom: 40px;
+}
+
+.donate_contribution h1 {
+    font-size: 45px;
+}
+
+.donate_contribution p {
+    font-size: 20px;
+}
 
 .specified_amount {
     display: flex;
     font-size: 30px;
-    padding: 40px 10px;
+    padding: 0% 20%;
 
+}
 
+#selected_amount {
+    border: 2px solid gray;
+    padding: 15px;
+    border-radius: 5px;
+    border-color: gold;
+    background-color: rgb(243, 255, 11);
 }
 
 .specified_amount h3 {
@@ -64,4 +81,95 @@ body {
 .unspecified_amount {
     text-align: center;
     margin-bottom: 40px;
+    padding: 0% 20%;
+}
+
+/* Donate plan section */
+.donate_plan {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* distribution field sectioin */
+.distribution_field {
+    display: flex;
+    margin: 0% 10%;
+    margin-top: 50px;
+
+}
+
+.donate_distribute {
+    background-color: rgb(220, 209, 195);
+    padding: 40px 20px;
+    margin: 20px;
+    width: 33.33%;
+    border-radius: 10px;
+
+}
+
+.donate_distribute img {
+    width: 70px;
+}
+
+#first {
+    background-color: beige;
+}
+
+#second {
+    background-color: papayawhip;
+}
+
+#third {
+    background-color: rgb(215, 182, 188);
+}
+
+/* this is the update section */
+.update_block {
+    text-align: center;
+    margin: 40px 20%;
+    padding: 5% 20%;
+    background-color: bisque;
+    border-radius: 10px;
+
+}
+
+#Email {
+    font-size: 15px;
+    color: gray;
+    background-color: lightgray;
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+}
+
+#subscribe_btn {
+    background-color: firebrick;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 1250x;
+    height: 30px;
+    font-size: 15px;
+}
+
+#footer {
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+}
+
+#footer h3 {
+    color: chocolate;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    padding-top: 40px;
+}
+
+#footer p {
+    padding-bottom: 40px;
 }
