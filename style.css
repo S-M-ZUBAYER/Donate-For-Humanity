@@ -158,6 +158,21 @@ body {
     margin-left: -3px;
 }
 
+#points {
+    width: 300px;
+}
+
+.amount-taka {
+    display: flex;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.amount-taka h4 {
+    padding-right: 80%;
+}
+
 #footer {
     margin-top: 100px;
     background-color: black;
